@@ -1,4 +1,6 @@
 export function fibonacci(i: number): number {
+  throw new Error("Intentional breakage for testing purposes.");
+
   if (i < 0) {
     throw new Error("Cannot compute on negative numbers");
   }
